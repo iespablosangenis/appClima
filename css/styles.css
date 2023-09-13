@@ -1,0 +1,12 @@
+body {
+    background: #efecd8;
+    letter-spacing: 0.2em;
+}
+
+.container {
+    max-width: 450px;
+}
+
+.detalle {
+    background-color: aliceblue;
+}

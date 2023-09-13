@@ -11,7 +11,31 @@
 </head>
 
 <body>
-    <h1>App Clima with JS Vanilla</h1>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-center text-muted my-4">App Clima</h1>
+
+        <form class="text-center text-muted my-4">
+            <label for="ciudad" class="p-2">Ingresa la ciudad para ver el clima</label>
+            <input type="text" name="ciudad" id="ciudad" class="form-control">
+        </form>
+
+        <div class="card shadow rounded">
+            <img class="card-img-top" src="https://via.placeholder.com/400x300" alt="400x300">
+            <div class="bg-light mx-auto text-center"></div>
+            <div class="card-body text-uppercase text-center detalle">
+                <h5 class="my-3">Nombre de la Ciudad</h5>
+                <div class="my-3">Condición Climatica</div>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
